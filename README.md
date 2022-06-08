@@ -7,7 +7,7 @@
  Clone or download the repository and open the directory in command prompt. Run the command `make` to build the executable and run it. 
 
  ## Additional Information
- - I have made a custom functions for managing 2D arrays within [array.c](../blob/matser/src/array.c) and [array.h](../blob/master/headers/array.h),
+ - I have made a custom functions for managing 2D arrays within [array.c](src/array.c) and [array.h](headers/array.h),
  - It has built in functions for creating 2D `int` arrays and freeing their memory once used,
  - Other functions mimic those of the [NumPy](https://github.com/numpy/numpy) library such as `sumArray`, `fillArray`, and `copyArray`.
  - Finally a custom `Range` struct has been made for looping through regions of 2D arrays.
